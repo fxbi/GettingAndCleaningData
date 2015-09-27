@@ -17,8 +17,7 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 Good luck!
 
-To create the project:
+## To create the project:
 1. Download dn open the R script run_analysis.r using a text editor.
 2. In RStudio ro RGui, change the run setwd to set the working directory/folder (i.e., the folder where these the R script file is saved).
-3. Run the R script run_analysis.r.
-4. The output file Output.txt is created
+3. Run the R script run_analysis.r. An output file Output.txt will be created.
