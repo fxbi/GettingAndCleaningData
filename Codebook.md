@@ -1,7 +1,7 @@
 ## Output file variables
-    subjectId (numeric) - The representation of the subject participating in the test and training.
+    * subjectId (numeric) - The representation of the subject participating in the test and training.
     
-    activityName (char) - The name of the activity.
+    * activityName (char) - The name of the activity.
                             1 - WALKING
                             2 - WALKING_UPSTAIRS
                             3 - WALKING_DOWNSTAIRS
@@ -9,7 +9,7 @@
                             5 - STANDING
                             6 - LAYING
     
-    featureId (numeric) - The Id of the feature measured when performing an activity.
+    * featureId (numeric) - The Id of the feature measured when performing an activity.
                             tBodyAcceleration.Mean.X
                             tBodyAcceleration.Mean.Y
                             tBodyAcceleration.Mean.Z
@@ -77,21 +77,10 @@
                             fBodyBodyGyroscopeJerkMagnitude.Mean
                             fBodyBodyGyroscopeJerkMagnitude.StandardDeviation
     
-    average (numeric)   - The average value of the measure.
+    * average (numeric)   - The average value of the measure.
 
 ## Output file summary
-        subjectId activityId activityName                                         featureId      value
-     1:         1          1      WALKING                          tBodyAcceleration.Mean.X  0.2820216
-     2:         1          1      WALKING                          tBodyAcceleration.Mean.X  0.2558408
-     3:         1          1      WALKING                          tBodyAcceleration.Mean.X  0.2548672
-     4:         1          1      WALKING                          tBodyAcceleration.Mean.X  0.3433705
-     5:         1          1      WALKING                          tBodyAcceleration.Mean.X  0.2762397
-    ---                                                                                               
-679730:        30          6       LAYING fBodyBodyGyroscopeJerkMagnitude.StandardDeviation -0.9979687
-679731:        30          6       LAYING fBodyBodyGyroscopeJerkMagnitude.StandardDeviation -0.9990995
-679732:        30          6       LAYING fBodyBodyGyroscopeJerkMagnitude.StandardDeviation -0.9991540
-679733:        30          6       LAYING fBodyBodyGyroscopeJerkMagnitude.StandardDeviation -0.9985502
-679734:        30          6       LAYING fBodyBodyGyroscopeJerkMagnitude.StandardDeviation -0.9988617
+
 > summary(dt)
    subjectId       activityId    activityName                                       featureId          value         
  Min.   : 1.00   Min.   :1.000   Length:679734      tBodyAcceleration.Mean.X             : 10299   Min.   :-1.00000  
@@ -100,4 +89,4 @@
  Mean   :16.15   Mean   :3.625                      tBodyAcceleration.StandardDeviation.X: 10299   Mean   :-0.51134  
  3rd Qu.:24.00   3rd Qu.:5.000                      tBodyAcceleration.StandardDeviation.Y: 10299   3rd Qu.:-0.09971  
  Max.   :30.00   Max.   :6.000                      tBodyAcceleration.StandardDeviation.Z: 10299   Max.   : 1.00000  
-                                                    (Other)                              :617940  
+                                                    (Other)                              :617940   
