@@ -1,7 +1,82 @@
 ## Output file variables
-    subjectId (numeric) - The representation of the subject participating the test and training.
+    subjectId (numeric) - The representation of the subject participating in the test and training.
+    
     activityName (char) - The name of the activity.
-    featureId (numeric) - The Id of the feature/measure captured when performing an activity.
+                            1 - WALKING
+                            2 - WALKING_UPSTAIRS
+                            3 - WALKING_DOWNSTAIRS
+                            4 - SITTING
+                            5 - STANDING
+                            6 - LAYING
+    
+    featureId (numeric) - The Id of the feature measured when performing an activity.
+                            tBodyAcceleration.Mean.X
+                            tBodyAcceleration.Mean.Y
+                            tBodyAcceleration.Mean.Z
+                            tBodyAcceleration.StandardDeviation.X
+                            tBodyAcceleration.StandardDeviation.Y
+                            tBodyAcceleration.StandardDeviation.Z
+                            tGravityAcceleration.Mean.X
+                            tGravityAcceleration.Mean.Y
+                            tGravityAcceleration.Mean.Z
+                            tGravityAcceleration.StandardDeviation.X
+                            tGravityAcceleration.StandardDeviation.Y
+                            tGravityAcceleration.StandardDeviation.Z
+                            tBodyAccelerationJerk.Mean.X
+                            tBodyAccelerationJerk.Mean.Y
+                            tBodyAccelerationJerk.Mean.Z
+                            tBodyAccelerationJerk.StandardDeviation.X
+                            tBodyAccelerationJerk.StandardDeviation.Y
+                            tBodyAccelerationJerk.StandardDeviation.Z
+                            tBodyGyroscope.Mean.X
+                            tBodyGyroscope.Mean.Y
+                            tBodyGyroscope.Mean.Z
+                            tBodyGyroscope.StandardDeviation.X
+                            tBodyGyroscope.StandardDeviation.Y
+                            tBodyGyroscope.StandardDeviation.Z
+                            tBodyGyroscopeJerk.Mean.X
+                            tBodyGyroscopeJerk.Mean.Y
+                            tBodyGyroscopeJerk.Mean.Z
+                            tBodyGyroscopeJerk.StandardDeviation.X
+                            tBodyGyroscopeJerk.StandardDeviation.Y
+                            tBodyGyroscopeJerk.StandardDeviation.Z
+                            tBodyAccelerationMagnitude.Mean
+                            tBodyAccelerationMagnitude.StandardDeviation
+                            tGravityAccelerationMagnitude.Mean
+                            tGravityAccelerationMagnitude.StandardDeviation
+                            tBodyAccelerationJerkMagnitude.Mean
+                            tBodyAccelerationJerkMagnitude.StandardDeviation
+                            tBodyGyroscopeMagnitude.Mean
+                            tBodyGyroscopeMagnitude.StandardDeviation
+                            tBodyGyroscopeJerkMagnitude.Mean
+                            tBodyGyroscopeJerkMagnitude.StandardDeviation
+                            fBodyAcceleration.Mean.X
+                            fBodyAcceleration.Mean.Y
+                            fBodyAcceleration.Mean.Z
+                            fBodyAcceleration.StandardDeviation.X
+                            fBodyAcceleration.StandardDeviation.Y
+                            fBodyAcceleration.StandardDeviation.Z
+                            fBodyAccelerationJerk.Mean.X
+                            fBodyAccelerationJerk.Mean.Y
+                            fBodyAccelerationJerk.Mean.Z
+                            fBodyAccelerationJerk.StandardDeviation.X
+                            fBodyAccelerationJerk.StandardDeviation.Y
+                            fBodyAccelerationJerk.StandardDeviation.Z
+                            fBodyGyroscope.Mean.X
+                            fBodyGyroscope.Mean.Y
+                            fBodyGyroscope.Mean.Z
+                            fBodyGyroscope.StandardDeviation.X
+                            fBodyGyroscope.StandardDeviation.Y
+                            fBodyGyroscope.StandardDeviation.Z
+                            fBodyAccelerationMagnitude.Mean
+                            fBodyAccelerationMagnitude.StandardDeviation
+                            fBodyBodyAccelerationJerkMagnitude.Mean
+                            fBodyBodyAccelerationJerkMagnitude.StandardDeviation
+                            fBodyBodyGyroscopeMagnitude.Mean
+                            fBodyBodyGyroscopeMagnitude.StandardDeviation
+                            fBodyBodyGyroscopeJerkMagnitude.Mean
+                            fBodyBodyGyroscopeJerkMagnitude.StandardDeviation
+    
     average (numeric)   - The average value of the measure.
 
 ## Output file summary
