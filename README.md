@@ -8,16 +8,24 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
- You should create one R script called run_analysis.R that does the following. 
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement. 
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names. 
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-Good luck!
-
 ## To create the project:
-1. Download dn open the R script run_analysis.r using a text editor.
+1. Download dn open the R script run_analysis.R using a text editor.
 2. In RStudio ro RGui, change the run setwd to set the working directory/folder (i.e., the folder where these the R script file is saved).
-3. Run the R script run_analysis.r. An output file Output.txt will be created.
+3. Run the R script run_analysis.R. An output file Output.txt will be created.
+
+## How run_analysis.R works?
+The program perform the following main steps in sequence:
+
+1. Loads required packages to be used for this project
+   and set the data source URL and input file path.
+
+2. Merges the training and the test sets to create one data set
+   using rbind. The subjectMeasure and ActivityMeasure are
+   combined with the measurement data set.
+
+3. Only the mean and standard deviation wherever available are
+   extracted for analysis.  Other data files in the Inertial 
+   Signals folder are not being used for this purpose.
+
+4. Creates an independent tidy data set with the average 
+   of each variable for each activity and each subject.
