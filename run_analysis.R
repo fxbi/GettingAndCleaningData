@@ -123,8 +123,7 @@ selected <- c(key(dtMeasures), dtFeature$measureColumnId)
 dtSelectedMeasures <- dtMeasures[, selected, with = FALSE]
 
 # Rename the column to a more descriptive label.
-setnames(dtSelectedMeasures, dtFeature$featureColumnId, dtFeature$friendlyColumnName)
-dtSelectedMeasures
+setnames(dtSelectedMeasures, dtFeature$measureColumnId, dtFeature$friendlyColumnName)
 
 # Create a combined measure data set (fact table) with
 # the ActivityId and SubjectId as the foreign key.
